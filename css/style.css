@@ -158,6 +158,10 @@ h3 {
   font-weight: 300;
 }
 
+.about-content {
+  padding: 50px 0;
+}
+
 .btn-cta {
     border-color: #588B19;
     border-style: solid;
