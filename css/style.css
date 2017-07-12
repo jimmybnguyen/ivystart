@@ -121,6 +121,7 @@ h3 {
  .navbar-default .navbar-nav > .active > a:focus {
       color:#71953F;
       background: none;
+      font-weight: 600;
  }
 
 /* The hero image */
