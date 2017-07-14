@@ -124,11 +124,10 @@ h3 {
       font-weight: 600;
  }
 
-/* The hero image */
-.hero-image-home {
-    /* The image used */
-    background-image: url("../img/skyline.jpg");
+ /********************* Hero Image ***************************************/
 
+/* Hero image seettings */
+.hero-image {
     /* Set a specific height */
     height: 70%;
 
@@ -139,24 +138,27 @@ h3 {
     position: relative;
 }
 
-.hero-image-press {
-    /* The image used */
-    background-image: url("../img/press.jpg");
-
-    /* Set a specific height */
-    height: 70%;
-
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
+/* The transparent black overlay on hero images */
 .hero-overlay {
   width: 100%;
   height: 100%;
-      background-color: rgba(0, 0, 0, 0.40);
+  background-color: rgba(0, 0, 0, 0.40);
+}
+
+/* Hero image for home */
+.img-home {
+    background-image: url("../img/skyline.jpg");
+}
+
+/* Hero image for press */
+.img-press {
+    /* The image used */
+    background-image: url("../img/press.jpg");
+}
+
+/* Hero image for partnership */
+.img-partnership {
+  background-image: url("../img/partnership.jpg");
 }
 
 /* Place text in the middle of the image */
@@ -186,6 +188,8 @@ h3 {
 .hero-text button {
   margin: 20px;
 }
+
+/******************************************************************/
 
 .about-content {
   padding: 50px 0;
@@ -223,172 +227,6 @@ h3 {
 .center {
   text-align: center;
 }
-
-/**********https://codepen.io/anon/pen/mwLMNJ**********/
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
-figure.snip0067 {
-  position: relative;
-  float: left;
-  overflow: hidden;
-  margin: 10px 1%;
-  min-width: 220px;
-  max-width: 310px;
-  width: 100%;
-  background: #ffffff;
-  color: #000000;
-}
-
-figure.snip0067 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-}
-
-figure.snip0067 img {
-  max-width: 100%;
-  position: relative;
-  display: block;
-}
-
-figure.snip0067:before {
-  position: absolute;
-  content: '';
-  height: 100%;
-  width: 90%;
-  z-index: 1;
-  left: -20%;
-  background: rgba(255, 255, 255, 0.7);
-  border: 1px solid #fff;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-  -webkit-transform: skewX(-30deg) translateX(-80%);
-  transform: skewX(-30deg) translateX(-80%);
-  -webkit-box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
-  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
-}
-
-figure.snip0067 figcaption {
-  padding-left: 30px;
-  position: absolute;
-  left: 0;
-  top: 25%;
-  width: 60%;
-  z-index: 1;
-  opacity: 0;
-}
-
-figure.snip0067 figcaption h2,
-figure.snip0067 figcaption p {
-  margin: 0;
-  text-align: left;
-  padding: 5px 0 0;
-  width: 100%;
-}
-
-figure.snip0067 figcaption h2 {
-  font-size: 1.4em;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-figure.snip0067 figcaption h2 span {
-  font-weight: 800;
-}
-
-figure.snip0067 figcaption p {
-  font-weight: 500;
-  font-size: 0.9em;
-  opacity: 0.8;
-}
-
-figure.snip0067 figcaption .icons {
-  width: 100%;
-  padding: 8px 0;
-}
-
-figure.snip0067 figcaption .icons i {
-  display: inline-block;
-  font-size: 20px;
-  background: #000000;
-  color: #ffffff;
-  margin-right: 5px;
-  opacity: 0;
-  height: 35px;
-  width: 35px;
-  text-align: center;
-  line-height: 35px;
-  border-radius: 50%;
-}
-
-figure.snip0067 figcaption a {
-  opacity: 0.7;
-}
-
-figure.snip0067 figcaption a:hover {
-  opacity: 1;
-}
-
-figure.snip0067 .position {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: right;
-  padding: 15px 30px;
-  font-size: 0.9em;
-  opacity: 1;
-  font-weight: 500;
-  color: #ffffff;
-  background: #000000;
-}
-
-figure.snip0067.blue .icons i {
-  background: #164666;
-}
-
-figure.snip0067.blue .position {
-  background: #20638f;
-}
-
-figure.snip0067.red .icons i {
-  background: #6d2018;
-}
-
-figure.snip0067.red .position {
-  background: #962d22;
-}
-
-figure.snip0067.yellow .icons i {
-  background: #924d10;
-}
-
-figure.snip0067.yellow .position {
-  background: #bf6516;
-}
-
-figure.snip0067.green .icons i {
-  background: #145b32;
-}
-
-figure.snip0067.green .position {
-  background: #1e8449;
-}
-
-figure.snip0067:hover figcaption,
-figure.snip0067.hover figcaption,
-figure.snip0067:hover .icons i,
-figure.snip0067.hover .icons i {
-  opacity: 1;
-  -webkit-transition-delay: 0.2s;
-  transition-delay: 0.2s;
-}
-
-figure.snip0067:hover:before,
-figure.snip0067.hover:before {
-  -webkit-transform: skewX(-30deg) translateX(0px);
-  transform: skewX(-30deg) translateX(0px);
-}
-/*******************************/
 
 /**https://tutorialzine.com/2015/01/freebie-5-responsive-footer-templates**/
 
@@ -589,8 +427,9 @@ figure.snip0067.hover:before {
 		float: none;
 	}
 }
-/*******************/
-/* the slides */
+/*******************************************/
+
+/***************************** Members Carousel *****************************/
 .slick-slide {
     margin: 0 10px;
 }
@@ -599,6 +438,7 @@ figure.snip0067.hover:before {
     margin: 0 -10px;
 }
 
+/**************************** Press Cards ****************************/
 .section-stories {
   background: #FAFAFA;
   padding: 27px 26px;
