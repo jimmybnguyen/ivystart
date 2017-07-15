@@ -64,6 +64,29 @@ section {
   padding-bottom: 2.5em;
 }
 
+.partner-list {
+  color: #444;
+	list-style: none; /* reset */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.partner-list:before {
+  color: #9ACC5B; 
+  content: "\2022"; 
+  padding-right: .5em;
+  position: relative;
+  top: .1em; 
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .partner-list li {
+    font-size: 18px;
+  }
+}
+
 .section-title {
   padding-bottom: 1.5em;
 }
