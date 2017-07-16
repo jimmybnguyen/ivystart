@@ -533,27 +533,9 @@ h3 {
   }
 }
 
-.section-stories .item figure {
-  display: block;
-  margin-bottom: 15px;
-}
-
-.section-stories .item figure img {
-  display: block;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .section-stories .item figure {
-    margin-left: -40px;
-    margin-right: -40px;
-    margin-bottom: 0;
-  }
-}
-
 .section-stories .item .date {
   font-size: 13px;
-  color: #9F9F9F;
+  color: #757575;
   letter-spacing: 0;
   line-height: 28px;
   margin-bottom: 8px;
@@ -568,8 +550,7 @@ h3 {
 }
 
 .section-stories .item h2 {
-  font-family: "Aveny T", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #040000;
+  color: #212121;
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 10px;
@@ -622,6 +603,7 @@ h3 {
   font-size: 15px;
   line-height: 28px;
   text-decoration: none;
+  color: #71953F;
 }
 
 @media screen and (min-width: 768px) {
@@ -630,7 +612,4 @@ h3 {
     line-height: 28px;
   }
 }
-
-.section-stories .buttons {
-  text-align: center;
-}
+/**https://instagram-press.com/**/
