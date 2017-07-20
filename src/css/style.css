@@ -132,6 +132,10 @@ h3 {
   width: 300px;
 }
 
+.modal-body {
+    padding-top: 3em;
+}
+
 /********https://codepen.io/bootstrapped/pen/KwYGwq******/
 .nav >li >a {
   padding-top: 20px;
