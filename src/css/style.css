@@ -132,6 +132,12 @@ h3 {
   width: 300px;
 }
 
+.crop img:hover {
+  transition: .5s ease;
+  background-color: #ffffff;
+  opacity: 0.25;
+}
+
 .modal-body {
     padding-top: 3em;
 }
