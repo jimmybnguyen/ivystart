@@ -304,14 +304,23 @@ h3 {
 }
 
 @media (max-width: 800px) {
-  section {
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
+    section {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
 
-  .section-title {
-    padding-bottom: 1em;
-  } 
+    .section-title {
+        padding-bottom: 1em;
+    } 
+
+    .hero-title {
+        font-size: 3em;
+        font-weight: 600;
+    }
+
+    .about-content {
+        padding: 20px 0;
+    }
 }
 
 /**https://tutorialzine.com/2015/01/freebie-5-responsive-footer-templates**/
