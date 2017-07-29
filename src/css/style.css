@@ -323,6 +323,12 @@ h3 {
     }
 }
 
+.more-info {
+    font-size: 80%;
+    color: #777777;
+    padding-bottom: 6px;
+}
+
 /**https://tutorialzine.com/2015/01/freebie-5-responsive-footer-templates**/
 .footer-distributed{
 	background-color: #292c2f;
