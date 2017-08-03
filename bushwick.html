@@ -10,8 +10,8 @@
     <meta name="og:title" content="IvyStart - Stop Dreaming and Start Doing" />
     <meta property="og:url" content="http://www.ivystart.house" />
     <meta property="og:image" cntent="img/logo.png" />
-    <meta name="og:description" content="Come see where IvyStart has been featued so far!" />
-    <meta name="keywords" content="co-living, coliving, new york, start-ups, nyc, ivy, HTML, CSS, JavaScript, college, tech, innovation, entrepreneurship, press, news" />
+    <meta name="og:description" content="IvyStart offers flexible and affordable housing in the Bed-Stuy neighborhood in NYC." />
+    <meta name="keywords" content="co-living, coliving, new york, start-ups, nyc, ivy, HTML, CSS, JavaScript, college, tech, innovation, entrepreneurship, bed-stuy" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
@@ -22,7 +22,13 @@
     <!-- FontAwesome CSS -->
     <link rel='stylesheet' href='css/font-awesome.min.css'>
 
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+				
+    <!-- Custom Stylsheet -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/house.css">
 
     <!-- Google Analytics -->
     <script>
@@ -53,59 +59,56 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
-            <li><a href="house.html">Houses</a></li>
+            <li class="active"><a href="house.html">Houses</a></li>
             <li><a href="partnership.html">Partnership</a></li>
-            <li class="active"><a href="press.html">Press</a></li>
+            <li><a href="press.html">Press</a></li>
             <li><a href="http://application.ivystart.house/dir/application/app/" target="_blank"><strong>Apply</strong></a></li>
         </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+        </div>
+    </div>
     </nav>
 
-    <div class="hero-image img-press">
+    <div class="hero-image img-house">
         <div class="hero-overlay">
             <div class="hero-text">
-                <h1 class="hero-title">Breaking News!</h1>
-                <p>Hear what people have been saying about us.</p>
-                <a href="mailto:start@ivystart.house" class="btn btn-lg btn-outline">
+                <h1 class="hero-title">Bushwick</h1>
+                <p>Membership starts at $590 per month, plus an additional $180 for utilities and events</p>
+                <a href="http://application.ivystart.house/dir/application/app/" target="_blank" class="btn btn-lg btn-outline">
                     <button type="button" class="btn btn-default btn-cta" aria-label="Apply button">
-                        <div class="btn-cta-text">Press contact</div>
+                            <div class="btn-cta-text"> Apply Now</div>
                     </button>
                 </a>
             </div>
         </div>
     </div>
 
-    <section class="section-stories">
+    <div class="message">
+        Sorry, your browser does not support CSS Grid. 😅
+    </div>
+    <section class="section">
         <div class="container">
-            <div class="wrap">
-                <div class="item">
-                    <div class="date">June 27, 2017</div>
-                    <h2><a href="http://www.ithaca.com/news/cornell-student-starts-an-entrepreneurial-fraternity/article_c841ca88-5b77-11e7-9d8c-c79340522235.html" rel="bookmark">Cornell student starts an "entrepreneurial fraternity"</a></h2>
-                    <div class="copy">
-                    <p>A son of immigrants born in Seattle, Fong – member of the Class of 2019 as well as President and Founder of the Cornell Entrepreneurship Club – grew up surrounded by the ethic of enterprise, his small business-owning parents instilling in him from youth the type of freedom and personal accountability that can come working for yourself.</p>
-                    </div>
-                    <a href="http://www.ithaca.com/news/cornell-student-starts-an-entrepreneurial-fraternity/article_c841ca88-5b77-11e7-9d8c-c79340522235.html" class="link-read-more">Read More</a>
+            <div class="grid">
+                <div class="item item--medium" alt="Backyard of Bed-Stuy house">
                 </div>
-            </div>
-
-            <div class="wrap">
-                <div class="item">
-                    <div class="date">December 2, 2016</div>
-                    <h2><a href="http://eship.dyson.cornell.edu/blog/2016/12/02/chad-fong-provides-entrepreneurial-students-with-an-alternative-living-space/" rel="bookmark">Chad Fong (’19) Provides Entrepreneurial Students with an Alternative Living Space</a></h2>
-                    <div class="copy">
-                    <p>Chad Fong, AEM major and President and Founder of the Cornell Entrepreneurship Club, is passionate about connecting entrepreneurs to the resources necessary to achieve their goals. In order to facilitate this process, Chad decided to take on his own entrepreneurial project by creating IvyStart. This startup is a living space specifically designed to support entrepreneurs by providing them with tools for a lifestyle conducive to their ambitious pursuits.</p>
-                    </div>
-                    <a href="http://eship.dyson.cornell.edu/blog/2016/12/02/chad-fong-provides-entrepreneurial-students-with-an-alternative-living-space/" class="link-read-more">Read More</a>
+                <div class="item item--medium" alt="Hallway of Bed-Stuy house">
+                </div>
+                <div class="item item--medium" alt="Kitchen of Bed-Stuy house">
+                </div>
+                <div class="item item--full" alt="Living room of Bed-Stuy house">
+                </div>
+                <div class="item item--medium" alt="Bathoom 1 of 2 of Bed-Stuy house">
+                </div>
+                <div class="item item--medium" alt="Bathroom 2 of 2 of Bed-Stuy house">
+                </div>
+                <div class="item item--medium" alt="Brooklyn Bridge">
                 </div>
             </div>
         </div>
-        </section>
+    </section>
 
     <footer class="footer-distributed">
         <div class="footer-left">
             <img src="img/logo.png" />
-            <p class="footer-links">
             <p class="footer-links">
                 <a href="index.html">Home</a>
                 ·
@@ -133,11 +136,13 @@
                 <button>Send</button>
             </form>
         </div>
-    </footer> 
-
+    </footer>    
 </body>
 
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
