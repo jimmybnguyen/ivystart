@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font: inherit;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -73,11 +73,11 @@ section {
 }
 
 .partner-list:before {
-  color: #9ACC5B; 
-  content: "\2022"; 
+  color: #9ACC5B;
+  content: "\2022";
   padding-right: .5em;
   position: relative;
-  top: .1em; 
+  top: .1em;
   margin-bottom: 20px;
 }
 
@@ -91,7 +91,7 @@ section {
   padding-bottom: 1.5em;
 }
 
-h1, .ivystart { 
+h1, .ivystart {
     display: block;
     font-size: 2em;
     margin-top: 0.67em;
@@ -177,7 +177,7 @@ h3 {
 
 .modal-footer button {
     background-color: #9ACC5B;
-    color: white;   
+    color: white;
 }
 
 .modal-footer button:hover {
@@ -187,7 +187,7 @@ h3 {
 
 #locations {
     text-align:center;
-    margin:50px auto; 
+    margin:50px auto;
 }
 
 #locations a{
@@ -204,8 +204,7 @@ h3 {
 
 /********https://codepen.io/bootstrapped/pen/KwYGwq******/
 .nav >li >a {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
 }
 
 .navbar-brand {
@@ -225,8 +224,8 @@ h3 {
 
 /********************************/
 
- .navbar-default .navbar-nav > .active > a, 
- .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
  .navbar-default .navbar-nav > .active > a:focus {
       color:#71953F;
       background: none;
@@ -356,7 +355,7 @@ h3 {
 
     .section-title {
         padding-bottom: 1em;
-    } 
+    }
 
     .hero-title {
         font-size: 3em;
