@@ -125,17 +125,45 @@ h3 {
   height: 300px;
   width: 300px;
   overflow: hidden;
-
 }
+
 .crop img {
   height: auto;
   width: 300px;
+}
+
+.house-img {
+    height: 225px;
 }
 
 .crop img:hover {
   transition: .5s ease;
   background-color: #ffffff;
   opacity: 0.25;
+}
+
+.house-price {
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
+.house-info {
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+
+.house-container {
+    margin-top: 20px;
+}
+
+.house-amenity {
+    padding-bottom: 15px;
+}
+
+.fa-check {
+    color: #7ba348;
+    margin: 5px;
 }
 
 .modal-body {
