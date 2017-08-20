@@ -1,0 +1,15 @@
+#treatment-graph svg{
+	display: block;
+	margin: auto;
+}
+
+.axis path { 
+	fill: none; 
+	stroke: black; 
+}
+.axis line { 
+	stroke: black; 
+}
+.axis text { 
+	font-size: 10pt; 
+}
